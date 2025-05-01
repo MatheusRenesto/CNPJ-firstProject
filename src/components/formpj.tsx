@@ -4,9 +4,7 @@ import { exampleSchema } from "@/validators/validation";
 import { zodResolver } from "@hookform/resolvers/zod";
 import axios from "axios";
 import { useForm } from "react-hook-form";
-import { useState } from "react";
-import { ArrowDown, Info } from "lucide-react";
-import { date } from "zod";
+import { Info } from "lucide-react";
 import { motion } from "framer-motion";
 
 export default function MyForm() {
