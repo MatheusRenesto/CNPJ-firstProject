@@ -13,7 +13,6 @@ export default function MyForm() {
     setValue,
     register,
     getValues,
-    watch,
     formState: { errors },
     handleSubmit,
     reset,
